@@ -1,0 +1,18 @@
+.reservation-div{
+    margin: 20px auto;
+    max-width: 75%;
+}
+.reservation-head{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    text-decoration: underline;
+    max-width: 100%;
+    margin: 0;
+}
+.reservation{
+    width: 100%;
+    margin: 10px 0;
+}
+.reservation-time{
+    float:right;
+}

@@ -1,0 +1,121 @@
+
+.slider{
+    overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+    max-height: 600px;
+}
+.slider figure{
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+.slider figure img{
+    width: 25%;
+    max-height: 600px;
+    float: left;
+}
+.about-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    visibility: visible;
+}
+.about{
+    width: 90%;
+    margin: 0 5% 2% 5%;
+}
+#main{
+    transition: margin-left .5s;
+}
+.jumbo{
+    min-height: 90vh;
+    background-image: url('../images/hands.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+    transition: 0.5s ease;
+    font-size: 50px;
+}
+#front-content{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+.about-head{
+    width: 100%;
+    margin: 10px 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+@media screen and (max-width: 600px){
+    .jumbo{
+        min-height: 400px;
+    }
+    .about{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 320px){
+    .jumbo{
+        min-height: 200px;
+    }
+    .welcome{
+        color: white;
+        font-size: 30px;
+    }
+    #front-content{
+        font-size: 20px;
+    }
+    .book{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .slider{
+        width: 100%;
+    }
+    .welcome{
+        margin: 10px 0;
+    }
+}
+
+@keyframes slider{
+    0%{
+        left: 0
+    }
+    20% {
+        left: 0
+    }
+    25% {
+        left: -100%
+    }
+    45% {
+        left: -100%
+    }
+    50%{
+        left: -200%
+    }
+    70%{
+        left: -200%
+    }
+    75% {
+        left: -300%
+    }
+    95% {
+        left: -300%
+    }
+    100%{
+        left: -300%
+    }
+}

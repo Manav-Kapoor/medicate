@@ -1,0 +1,34 @@
+.footer-container{
+    width: 100%;
+    background-color: #2592e1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    margin: 10px auto; 
+}
+.contact-head{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+}
+.contact-details{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+.contact-details a{
+    color: white;
+}
+
+@media screen and (max-width: 425px){
+    .contact-head{
+        font-size: 16px;
+    }
+    .contact-details{
+        font-size: 14px;
+    }
+    .footer{
+        margin: 5px auto;
+    }
+}
